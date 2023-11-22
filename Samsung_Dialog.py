@@ -1,7 +1,7 @@
-# import nltk
+import nltk
 import streamlit as st
 import random
-# from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity      
 import pandas as pd
 import warnings
@@ -10,9 +10,9 @@ warnings.filterwarnings('ignore')
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
 # Download required NLTK data
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 
 
